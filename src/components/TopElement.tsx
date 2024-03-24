@@ -15,7 +15,7 @@ export function TopElement() {
               Visit Store
             </a>
           </div>
-          <div className="ml-20 mt-2 w-[20px] h-[20px]">
+          <div className="ml-20 mt-2 w-[20px] h-[20px] justify-center">
             <FontAwesomeIcon icon={faAngleDown} />
           </div>
         </div>
