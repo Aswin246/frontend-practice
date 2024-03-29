@@ -1,12 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-
 import "./App.css";
 import { Sidebar } from "./Sidebar";
 import Header from "./components/Header";
 import Overview from "./components/Overview";
 import { Payout } from "./components/payout";
+import { Transactions } from "./components/Transactions";
 
 function App() {
   return (
@@ -17,6 +14,7 @@ function App() {
           <Header />
           <Overview />
           <Payout />
+          {/* <Transactions /> */}
         </div>
       </div>
     </>
