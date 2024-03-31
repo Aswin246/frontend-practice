@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Overview from "./components/Overview";
 import { Payout } from "./components/payout";
 import { Transactions } from "./components/Transactions";
+import OrderPanel from "./OrderPanel";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
           <Header />
           <Overview />
           <Payout />
-          {/* <Transactions /> */}
+          <Transactions />
+          <OrderPanel />
         </div>
       </div>
     </>
